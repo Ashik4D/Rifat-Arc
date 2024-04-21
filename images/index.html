@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d00bec72a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Architecture Student</p>
+                <h1>Hi, I'm Md.Rifat Ahmed <span>Riyad</span><br> from Gazipur</h1>
+            </div>
+        </div>
+    </div>
+    <!-----About------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there,welcome to my portfolio website.I am Md.Rifat Ahmed Riyad and I am a student of
+                        department of Architecture at Daffodil International University.My hometown is Gazipur.In this
+                        website you will find everything about me and if you have any further inquire check my contacts.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>MS Word</span><br> MS Excel. Expert</li>
+                            <li><span>MS PowerPoint.</span><br>AutoCad 2D</li>
+                            <li><span>SketchUp 3D</span><br>ArchCad 2D & 3D</li>
+                            <li><span>3DX Max</span><br>Adobe Photoshop</li>
+    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Archeology department of Bangladesh found an old zamindar
+                                house. The government will preserve it. A team has been given work for this. Because it can
+                                be repaired if it is damaged by natural calamities. Our beloved teacher got this job.
+                                Alhamdulillah I am also one of the 5 member team. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>B. Arch(Department of Archtecture)
+                                In Daffodil International
+                                University</li>
+                            <li><span>2018 - 2020</span><br>Hsc passed MH Arif College Gazipur</li>
+                            <li><span>2018</span><br>SSC passed MH Arif High School Gazipur</li>
+                            <li><span>2015</span><br>passed MH Arif High School Gazipur</li>
+    
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-----portfolio------->
+    <div id="portfolio">
+        <div id="my-work" class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work 3.jpg">
+                    <div class="layer">
+                        <h3 class="work-title">Sketchup 3D</h3>
+                        <p class="work-details">SketchUp is a 3D modeling software that allows you to create, view, and
+                            modify 3D models. It's widely used in architecture, interior design, landscape architecture,
+                            and related fields.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work 1.jpeg">
+                    <div class="layer">
+                        <h3 class="work-title">ArchCad 2D & 3D</h3>
+                        <p class="work-details"> ArchiCAD is a powerful software used in architecture and building
+                            design for both 2D and 3D work. It offers a range of tools for drafting, modeling,
+                            visualization, and collaboration. Here's an overview of working with ArchiCAD</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work 2.jpg">
+                    <div class="layer">
+                        <h3 class="work-title"> AutoCad 2D</h3>
+                        <p class="work-details">AutoCAD is a widely-used software for 2D drafting and drawing. It's
+                            extensively used in architecture, engineering, construction, manufacturing, and other
+                            industries that require precise technical drawings.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------contact--------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="Contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>rifat4203@gmail.com</p><br>
+                    <p><i class="fas fa-phone-square-alt"></i>01719-777285</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-whats app"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="Contact-right"></div>
+            </div>
+            <div class="Contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder=" Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Rifat<i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
